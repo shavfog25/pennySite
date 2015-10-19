@@ -41,22 +41,26 @@ body {
 }
 
 .wrapper {
-  /*clear: inherit;*/
+  clear: inherit;
   vertical-align: text-top;
   text-align: left;
   width: 100%;
-  height: 450px;
+  height: 560px;
   background-color: #090a0a;
   padding: 110px 50px 50px;
-  column-count: 2;
-  column-gap: 40px;
+  /*column-count: 2;
+  column-gap: 40px;*/
 }
 
-.wrapper h2, p{
+.wrapper > h2, p {
   color: #ffffff;
   margin-left: 610px;
 }
 
 .wrapper img {
   float: left;
+}
+
+.quote > p {
+    color: #000000;
 }
